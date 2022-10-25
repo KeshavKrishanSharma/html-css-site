@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet" />
+  <style>
+    .nav-item {
+      text-align: left;
+      font: normal normal 600 19px/26px Segoe UI;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Prompt", sans-serif;
+      color: rgb(5, 5, 5);
+      background: #ffffff;
+      overflow-x: hidden;
+    }
+
+    section {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 400px;
+      padding-top: 100px;
+    }
+
+    .mask-group-1 {
+      width: 509px;
+      height: 518px;
+    }
+
+    .nutito-sans-black-40 {
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 40px;
+      font-weight: 900;
+    }
+
+    .nunito-sans-regular {
+      font: normal normal normal 18px/24px Nunito Sans;
+    }
+
+    .Nunito-Sans-Bold {
+      font-size: 35px;
+    }
+
+    .abc {
+      height: 250px;
+      width: 300px;
+
+
+    }
+
+    .btn-all {
+      box-shadow: 0px 16px 48px #00000029;
+    }
+
+    .star {
+      background: transparent url('img/star-bookmark-favorite-shape-rank-16-28621.png') 0% 0% no-repeat padding-box;
+      width: 14px;
+      height: 14px;
+      margin-top: -5px;
+    }
+
+    .negative {
+      margin-bottom: -125px;
+      margin-left: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img src="img/11.png" />
+        </div>
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="navbar-brand ps-3 pe-3" href="#">Nav1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand ps-3 pe-3" href="#">Nav2</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="navbar-brand ps-3 pe-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Nav3
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="navbar-brand ps-3 pe-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Nav4
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand ps-3 pe-3" href="#">Nav5</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand ps-3 pe-3" href="#">Nav6</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand ps-3 pe-3" href="#">Nav7</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand ps-3 pe-3" href="#">Nav8</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 p-5">
+          <h1 class="nutito-sans-black-40 mt-5 mb-3 fw-bold">
+            <strong>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong>
+          </h1>
+          <p class="nunito-sans-regular">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
+            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus
+            ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+            diam a justo sollicitudin mattis eu sagittis nunc. In hac
+            habitasse platea dictumst.
+          </p>
+          <div class="mt-5 pt-5">
+            <button type="button" class="btn btn-primary btn-all rounded-pill btn-lg ps-5 pe-5 p-2">
+              Check Pricing
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 	d-none d-sm-block">
+          <img class="mask-group-1" src="img/22.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <h1 class="Nunito-Sans-Bold ps-5 pe-5 fw-bold" style="text-align: center;">
+      Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+    </h1>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-4">
+          <div class="card m-3 shadow">
+            <div class="card-title text-center mt-5 " style="font-size: 18px">
+              <h5 class="fw-bold">Lorem ipsum dolor sit .</h5>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              sed commodo est.Pellentesque eu placerat mauris. Etiam ut
+              maximus ante. Suspendisse varius dolor nec bibendum dignissim.
+              Proin in diam a justo sollicitudin mattis eu sagittisnunc. In
+              hac habitasse.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card m-3 shadow">
+            <div class="card-title text-center mt-5  " style="font-size: 18px">
+              <h5 class="fw-bold">Lorem ipsum dolor sit .</h5>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              sed commodo est.Pellentesque eu placerat mauris. Etiam ut
+              maximus ante. Suspendisse varius dolor nec bibendum dignissim.
+              Proin in diam a justo sollicitudin mattis eu sagittisnunc. In
+              hac habitasse.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card m-3 shadow">
+            <div class="card-title text-center mt-5" style="font-size: 18px">
+              <h5 class="fw-bold">Lorem ipsum dolor sit .</h5>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              sed commodo est.Pellentesque eu placerat mauris. Etiam ut
+              maximus ante. Suspendisse varius dolor nec bibendum dignissim.
+              Proin in diam a justo sollicitudin mattis eu sagittisnunc. In
+              hac habitasse.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+
+    <h1 class="Nunito-Sans-Bold ps-5 pe-5 fw-bold" style="text-align: center;">
+      Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+    </h1>
+    <div class="container mt-5">
+      <div class="row py-5">
+        <div class="col-lg-4">
+          <div class="card m-3 border-0">
+            <div class="card-header bg-white border-0 text-center">
+              <img class="abc" src="img/33.png" />
+            </div>
+            <div class="card-title ms-3 mt-5" style="font-size: 18px">
+              <h5 class="fw-bold">Lorem ipsum dolor sit .</h5>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              sed commodo est.Pellentesque eu placerat mauris. Etiam ut
+              maximus ante. Suspendisse varius dolor nec bibendum dignissim.
+              Proin in diam a justo sollicitudin mattis eu sagittisnunc. In
+              hac habitasse.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card m-3 border-0">
+            <div class="card-header bg-white border-0 text-center">
+              <img class="abc" src="img/44.png" />
+            </div>
+            <div class="card-title ms-3 mt-5" style="font-size: 18px">
+              <h5 class="fw-bold">Lorem ipsum dolor sit .</h5>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              sed commodo est.Pellentesque eu placerat mauris. Etiam ut
+              maximus ante. Suspendisse varius dolor nec bibendum dignissim.
+              Proin in diam a justo sollicitudin mattis eu sagittisnunc. In
+              hac habitasse.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card m-3 border-0">
+            <div class="card-header bg-white border-0 text-center">
+              <img src="img/55.png " class="abc" />
+            </div>
+            <div class="card-title ms-3 mt-5" style="font-size: 18px">
+              <h5 class="fw-bold">Lorem ipsum dolor sit .</h5>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              sed commodo est.Pellentesque eu placerat mauris. Etiam ut
+              maximus ante. Suspendisse varius dolor nec bibendum dignissim.
+              Proin in diam a justo sollicitudin mattis eu sagittisnunc. In
+              hac habitasse.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <h1 class="Nunito-Sans-Bold ps-5 pe-5 fw-bold" style="text-align: center;">
+      Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+    </h1>
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-7 col-md-6">
+          <div class="card border-0 mt-3">
+            <div class="card-title mb-0">
+
+              <h3 class="fw-bold mb-0"> <span class="ps-3 pe-4"> <img src="img/66.png"></span> Lorem ipsum dolor sit .
+              </h3>
+            </div>
+            <div class="card-body " style="font-size: 18px">
+              <p>adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut maximus ante. Suspendisse
+                varius dolor nec bibendum dignissim</p>
+              <button type="button" class="btn btn-primary btn-all  rounded-pill btn-lg ps-5 pe-5 p-2">
+                Check Pricing
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 	">
+
+        </div>
+        <div class="col-lg-7 col-md-6 ">
+
+        </div>
+        <div class="col-lg-5 col-md-6  ">
+          <div class="card border-0  mt-3">
+            <div class="card-title mb-0">
+
+              <h3 class="fw-bold mb-0"> <span class="ps-3 pe-4"> <img src="img/77.png"></span> Lorem ipsum dolor sit .
+              </h3>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              <p>adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut maximus ante. Suspendisse</p>
+              <button type="button" class="btn btn-primary btn-all rounded-pill btn-lg ps-5 pe-5 p-2">
+                Check Pricing
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-md-6">
+          <div class="card border-0 mt-3">
+            <div class="card-title mb-0">
+
+              <h3 class="fw-bold mb-0"> <span class="ps-3 pe-4"> <img src="img/88.png"></span> Lorem ipsum dolor sit .
+              </h3>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              <p>adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut maximus ante. Suspendisse
+                varius dolor nec bibendum dignissim</p>
+              <button type="button" class="btn btn-primary btn-all rounded-pill btn-lg ps-5 pe-5 p-2">
+                Check Pricing
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 	">
+
+        </div>
+        <div class="col-lg-7 col-md-6 ">
+
+        </div>
+        <div class="col-lg-5 col-md-6  ">
+          <div class="card border-0  mt-3">
+            <div class="card-title mb-0">
+
+              <h3 class="fw-bold mb-0"> <span class="ps-3 pe-4"> <img src="img/99.png"></span> Lorem ipsum dolor sit .
+              </h3>
+            </div>
+            <div class="card-body" style="font-size: 18px">
+              <p>adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut maximus ante. Suspendisse</p>
+              <button type="button" class="btn btn-primary btn-all rounded-pill btn-lg ps-5 pe-5 p-2">
+                Check Pricing
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <h1 class="Nunito-Sans-bold p-5 " style="text-align: center;">
+      Lorem ipsum dolor sit .
+    </h1>
+    <div class="container">
+      <div class="card shadow-lg p-5" style="border-radius: 42px; background: #F8FAFC 0% 0% no-repeat padding-box;;">
+        <div class="card-title">
+          <h2 class="fw-bold "> <span><img src="img/10.png" style="height: 64px;width: 63px;"></span> ipsum dolor sit .
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="row negative">
+              <div class="col-lg-4 mb-3">
+                <div class="card shadow-lg" style="border-radius: 30px;">
+                  <div class="card-title ps-4 pt-4 mb-0">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="img/r1.png">
+                      </div>
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-6" style="font: normal normal 600 13px/18px Nunito Sans;">
+
+                            <span class="text-black"> Jhon Deo</span>
+
+                          </div>
+                          <div class="col-6">
+                            <img class="star" src="img/star.png"><img class="star" src="img/star.png"><img class="star"
+                              src="img/star.png"><img class="star" src="img/star.png">
+                          </div>
+                          <span class="text-black-50" style="font: normal normal 600 13px/18px Nunito Sans;"> Customer
+                            CEO</span>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-body " style="font: normal normal 600 13px/18px Nunito Sans;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est. Pellentesque eu
+                      placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+                      diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-lg-4 mb-3">
+                <div class="card ps-3 shadow-lg" style="border-radius: 30px;">
+                  <div class="card-title ps-4 pt-4 mb-0">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="img/r2.png">
+                      </div>
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-7" style="font: normal normal 600 13px/18px Nunito Sans;">
+
+                            <span class="text-black"> Amanda green</span>
+
+                          </div>
+                          <div class="col-5">
+                            <img class="star" src="img/star.png"><img class="star" src="img/star.png"><img class="star"
+                              src="img/star.png"><img class="star" src="img/star.png">
+                          </div>
+                          <span class="text-black-50" style="font: normal normal 600 13px/18px Nunito Sans;"> Operations
+                            Manager</span>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="card-body " style="font: normal normal 600 13px/18px Nunito Sans;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est. Pellentesque eu
+                      placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+                      diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="col-lg-4 mb-3">
+                <div class="card shadow-lg" style="border-radius: 30px;">
+                  <div class="card-title ps-4 pt-4 mb-0">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="img/r3.png">
+                      </div>
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-6" style="font: normal normal 600 13px/18px Nunito Sans;">
+
+                            <span class="text-black"> Sam Cooper</span>
+
+                          </div>
+                          <div class="col-6">
+                            <img class="star" src="img/star.png"><img class="star" src="img/star.png"><img class="star"
+                              src="img/star.png"><img class="star" src="img/star.png">
+                          </div>
+                          <span class="text-black-50" style="font: normal normal 600 13px/18px Nunito Sans;"> Customer
+                            Service
+                            Manager</span>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="card-body " style="font: normal normal 600 13px/18px Nunito Sans;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est. Pellentesque eu
+                      placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+                      diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section style=" margin-top: 100px; margin-bottom: 100px">
+    <h1 class="Nunito-Sans-bold p-5 pt-5 mb-5" style="text-align: center;">
+      Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+    </h1>
+
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div style="height: 100px">
+            <img src="img/f1.png" />
+          </div>
+          <p style="font: normal normal bold 18px/24px Nunito Sans">
+            Forms On Fire
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div style="height: 100px">
+            <img src="img/f2.png" />
+          </div>
+          <p style="font: normal normal bold 18px/24px Nunito Sans">
+            ElectroNeek Studio IDE
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div style="height: 100px">
+            <img src="img/f3.png" style="height: 89px; width: 89px ;" />
+          </div>
+
+          <p style="font: normal normal bold 18px/24px Nunito Sans">
+            Jot form
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-black">
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="text-center text-white">
+      <span class=" bg-black  text-white ps-2 p-1 pe-2 me-3 " style="border: 2px solid #FAFAFA; border-radius: 100px;">c</span> Helplama 2021
+    </div><br>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
